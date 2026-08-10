@@ -1,0 +1,7 @@
+export VSIM_PATH=/home/erwin/pulp_box/pulpissimo/sim
+
+source ../../pulp-runtime/configs/pulpissimo.sh
+source ../../pulp-runtime/configs/rtl.sh
+
+source ../../pulp-runtime/configs/pulpissimo.sh
+source ../../pulp-runtime/configs/fpgas/pulpissimo/zcu102.sh
