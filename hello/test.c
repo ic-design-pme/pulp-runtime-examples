@@ -14,11 +14,19 @@
  * limitations under the License.
  */
 
+#include <pulp.h>
 #include <stdio.h>
+#include <implem/delay.h>
 
 int main()
 {
-  printf("Hello !\n");
+    printf("Hello SS58!\n");
+    pos_delay_busy_us(10);
 
-  return 0;
+    return 0;
 }
+
+void pe_start(void)
+{
+}
+
