@@ -20,9 +20,11 @@
 
 int main()
 {
-    printf("Hello SS58!\n");
-    pos_delay_busy_us(10);
-
+    while (1)
+    {
+        printf("Hello SS58!\n");
+        pos_delay_busy_ms(1000);
+    }
     return 0;
 }
 
