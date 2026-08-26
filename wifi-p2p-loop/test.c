@@ -20,8 +20,8 @@
 #include <stdint.h>
 #include <unistd.h>
 
-#define RF
-#define MCS       7
+//#define RF
+#define MCS       0
 
 #define RX_LEN_STREAM       1536
 #define TX_LEN_MEM          1552

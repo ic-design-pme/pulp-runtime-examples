@@ -22,7 +22,7 @@ int main()
 {
     while (1)
     {
-        printf("Hello SS58!\n");
+        printf("Hello, world!\r\n");
         pos_delay_busy_ms(1000);
     }
     return 0;
